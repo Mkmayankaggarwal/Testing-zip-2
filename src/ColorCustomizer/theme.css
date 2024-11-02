@@ -1,0 +1,49 @@
+/* Default Theme */
+:root {
+    --primary-color: #333;
+    --background-color: #fff;
+    --text-color: #333;
+  }
+  
+  /* Blue Theme */
+  .theme-blue {
+    --primary-color: #007bff;
+    --background-color: #e7f3ff;
+    --text-color: #333;
+  }
+  
+  /* Light Blue Theme */
+  .theme-light-blue {
+    --primary-color: #17a2b8;
+    --background-color: #e0f7fa;
+    --text-color: #333;
+  }
+  
+  /* Sky Blue Theme */
+  .theme-sky-blue {
+    --primary-color: #5bc0de;
+    --background-color: #e0f7ff;
+    --text-color: #333;
+  }
+  
+  /* Orange Theme */
+  .theme-orange {
+    --primary-color: #fd7e14;
+    --background-color: #fff4e5;
+    --text-color: #333;
+  }
+  
+  /* Apply the variables to the entire document */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  

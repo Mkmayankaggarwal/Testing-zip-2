@@ -1,0 +1,89 @@
+/* Full-width responsiveness */
+/* .page-wrapper1,
+.container1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+} */
+
+/* Title Section */
+/* .page-title1 {
+  padding: 40px 0;
+  text-align: center;
+}
+.prod1{
+  margin: 40px;
+}
+.prod1 .row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.featured-item1 {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.featured-item1:hover {
+  transform: scale(1.05);
+}
+.featured-icon1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+  .page-title1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .featured-item1 {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container1 {
+    max-width: 1400px;
+  }
+} */
+
+/* Base style for .prod section */
+.prod1 {
+  min-height: 72vh; /* Default height for large screens */
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Adjustments for medium screens (tablets and small laptops) */
+@media (max-width: 1200px) {
+  .prod1 {
+    min-height: 60vh; /* Slightly less for medium devices */
+  }
+}
+
+/* Adjustments for smaller screens (mobile devices) */
+@media (max-width: 768px) {
+  .prod1 {
+    min-height: 50vh; /* Reduced height for smaller screens */
+  }
+}
+.featured-item1 {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.featured-item1 .featured-icon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
